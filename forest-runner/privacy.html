@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forest Runner Privacy</title>
+<style>
+  :root {
+    --bg: #f4efe3; --text: #24301f; --muted: #5d6a55; --line: #d8cfba; --accent: #3f6b35;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141a12; --text: #e9e3d2; --muted: #a7b09c; --line: #2e3a29; --accent: #9cc98a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8em; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.15em; margin: 2em 0 0.4em; padding-top: 1em; border-top: 1px solid var(--line); }
+  .date { color: var(--muted); margin: 0 0 1.5em; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+  li { margin: 0.3em 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Forest Runner: privacy policy</h1>
+<p class="date">Last updated: 17 October 2026</p>
+
+<p>Forest Runner is a one-button running game made by Rodrigo Cereceda, an
+independent developer ("I" below). This page says what the game collects,
+why, who else handles it, how long it is kept and how to have it deleted.</p>
+
+<p>In short: the game has no accounts and never asks for your name, email,
+location, contacts or photos. It sends anonymous play events so I can see
+whether people come back to it, the nickname and results you choose to share
+in groups, and, in the Google Play version, what Google's ads need.</p>
+
+<h2>What the game sends to my server</h2>
+<ul>
+  <li><strong>Play events.</strong> When the game opens, when a session
+    starts, when a run starts and when it ends (the mode, the distance and
+    what ended it). Each event carries a random install id made by the game
+    the first time it opens, the game's version, the platform (for example
+    Android or web) and the time. The install id is not your device's id or
+    your advertising id, and nothing in it identifies you. I use these
+    events only to count players, sessions and runs, and to see whether
+    players come back and where runs end, so I can make the game better.</li>
+  <li><strong>Groups</strong>, only if you use them. To compare your daily
+    forest runs with friends, the game makes a random player id and a secret
+    key (the server keeps only a hash of the key) and sends the nickname you
+    pick (3 to 10 letters and digits), the names of the groups you create,
+    the groups you join, and the distance and number of tries of your daily
+    runs. The other members of your groups see your nickname and these
+    results. Don't use your real name as a nickname if you'd rather not
+    share it.</li>
+</ul>
+<p>My server does not store your IP address, and it does not combine this
+data with anything else about you. It runs on Cloudflare (Cloudflare Workers
+and its D1 database), which handles the connections on my behalf and, like
+any network provider, sees your IP address while delivering a request
+(<a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>).</p>
+
+<h2>Ads (Google Play version only)</h2>
+<p>The Android version on Google Play shows an occasional full-screen ad
+between runs, through Google AdMob. The web version and other builds show no
+ads and include no ad code.</p>
+<p>To show ads, measure them and prevent fraud, Google's AdMob SDK collects
+data from your device, such as your device's advertising id, IP address,
+device and app information, and how you interact with the ads. This is
+collected by Google, not by me, and Google uses it as described in
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>
+and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>Where the law requires it (for example in the European Economic Area,
+the United Kingdom and Switzerland), the game asks for your consent with
+Google's consent form before any ad is requested. If you don't agree, you
+still get ads, but not personalized ones. In those places you can change
+your choice at any time with the PRIVACY button on the title screen. You can also reset or
+delete your advertising id, or opt out of personalized ads, in your Android
+settings (Settings &gt; Google &gt; Ads, or Settings &gt; Privacy &gt; Ads).</p>
+<p>The game asks Google for ads suitable for teens and older.</p>
+
+<h2>What stays on your device</h2>
+<p>Your best distances, settings, the install id, your group player id, key
+and nickname, and events or runs waiting to be sent while you're offline are
+saved in the game's own storage on your device. Uninstalling the game (or
+clearing its data) deletes them; a new install starts with new random ids
+that are not linked to the old ones.</p>
+
+<h2>How long it is kept</h2>
+<ul>
+  <li>Play events: 13 months, then deleted.</li>
+  <li>Group data: your daily results are kept for 13 months. Your nickname
+    and player id are kept while you are in a group, and deleted 13 months
+    after you were last active. A group is deleted when its last member
+    leaves.</li>
+</ul>
+
+<h2>Your choices and deleting your data</h2>
+<ul>
+  <li>Leave a group from the game at any time (LEAVE GROUP); the group's
+    creator can also remove members.</li>
+  <li>To have your group data deleted, write to me with your nickname and
+    the name or code of one of your groups. I'll delete your nickname,
+    results and membership.</li>
+  <li>Play events can't be tied to you (I don't know which install id is
+    yours), so I can't pick out yours on request; they are deleted after 13
+    months, and uninstalling the game stops them.</li>
+  <li>Depending on where you live (for example under the GDPR in Europe, or
+    California's CCPA), you may have the right to ask for access to,
+    correction of or deletion of your personal data, and to complain to
+    your local data protection authority. Write to me and I'll answer
+    within 30 days.</li>
+</ul>
+<p>I don't sell your data, and I don't share it with anyone other than the
+providers named on this page.</p>
+
+<h2>Children</h2>
+<p>Forest Runner is meant for players aged 13 and over. It is not directed
+at children under 13 and I don't knowingly collect data from them. If you
+think a child under 13 has shared a nickname in a group, write to me and
+I'll delete it.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, I'll update this page and its date. If the
+change is significant (for example a new kind of data), I'll say so in the
+game's update notes.</p>
+
+<h2>Contact</h2>
+<p>Rodrigo Cereceda<br>
+Email: <a href="mailto:rcereced@gmail.com">rcereced@gmail.com</a></p>
+</main>
+</body>
+</html>
